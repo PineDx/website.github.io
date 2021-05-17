@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "title": "全国计算机等级考试",
+            "weburl": "http://ncre.neea.edu.cn/",
+            "desctext": ""
+        },
+        {
+            "title": "中小学教师资格考试",
+            "weburl": "http://ntce.neea.edu.cn/",
+            "desctext": ""
+        },
+        {
+            "title": "全国四六级考试",
+            "weburl": "http://cet-bm.neea.edu.cn/",
+            "desctext": ""
+        }
+    ]
+}

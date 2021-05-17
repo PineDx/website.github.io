@@ -1,0 +1,133 @@
+.main-container {
+    width: 1240px ;
+    margin-top: 50px;
+}
+.main-container .panel{
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+.main-container .panel .group{
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    border-bottom: 3px solid #2ec866;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-container .panel .group >.tit{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container .panel .group >.tit span{
+    font-size: 1.225rem!important;
+    font-weight: 700;
+    color: #555;
+}
+.main-container .panel .group > ul{
+    border-radius: 100px;
+    background-color: #E7EFEC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.main-container .panel .group  > ul li{
+    box-sizing: border-box;
+    padding: 5px 20px;
+    color: #555;;
+    cursor: pointer;
+    font-size: 1.036rem;
+    font-weight: 700;
+    line-height: 35px;
+    position: relative;
+}
+.main-container .panel .group  > ul li.active{
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.056rem;
+    border-radius: 2px;
+    background-color: #2EC866;
+    box-shadow: 0px 2px 0 #2EC866, 2px 4px 6px #2EC866;
+}
+.main-container .panel .group  > ul li:hover{
+    color: #fff;
+    background-color: #515E6F;
+    box-shadow: 0px 2px 0 #555, 2px 4px 6px #555;
+}
+/* 标签组 */
+.main-container .panel .items{
+    padding: 10px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 15px 10px;
+    justify-content: center;
+    align-content: center;
+}
+.main-container .panel .items .item{
+    position: relative;
+    padding: 0 15px;
+    height: 65px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-container .panel .items .item > .info{
+    flex: 1;
+    padding: 0 0 0 25px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.main-container .panel .items .item > .info a{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    font-size: 1.056rem;
+    font-weight: 700;
+    line-height: 30px;
+    color: #39424E;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main-container .panel .items .item:hover a{
+    color: #42A5F5;
+}
+.main-container .panel .items .item .des-box{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #39424E;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+    z-index: 999;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+}
+.main-container .panel .items .item .des-box p{
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.main-container .panel .items .item:hover >.des-box{
+    transform: translateY(70px) scale(1) rotateX(0deg);
+    height: auto;
+    opacity: 1;
+}
