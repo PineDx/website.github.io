@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <!--使用 viewport meta 标签在手机浏览器上控制布局-->
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     <!--通过快捷方式打开时全屏显示-->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!--隐藏状态栏-->
     <meta name="apple-mobile-web-app-status-bar-style" content="blank" />
+    <link rel="icon" type="image/png" sizes="144x144" href="css/icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="css/icon.png">
     <script src="./js/jquery.min.js"></script>
     <!-- <script type="text/javascript" src="js/ajaxutil.js"></script> -->
     <script type="text/javascript" src="./js/websitepage.js"></script>
@@ -17,7 +20,7 @@
     <link rel="stylesheet" href="css/yunautomedia.css">
     <link rel="stylesheet" href="css/website.css">
     <link rel="stylesheet" href="css/reset.min.css">
-    <title>为你而喵-二师资源平台</title>
+    <title>三分的网站工具箱</title>
 </head>
 
 <body>
@@ -54,9 +57,9 @@
                             <span>数据分析</span>
                         </div>
                         <ul>
-                            <li class="active" onclick="webitems(this,2,1)">数据源</li>
+                            <li class="active" onclick="webitems(this,2,0)">数据源</li>
                             <li onclick="webitems(this,2,1)">排名查询</li>
-                            <li onclick="webitems(this,2,1)">分析统计</li>
+                            <li onclick="webitems(this,2,2)">分析统计</li>
                         </ul>
                     </div>
                     <div class="items">
@@ -70,13 +73,13 @@
                             <span>软件工具</span>
                         </div>
                         <ul>
-                            <li class="active" onclick="webitems(this,2,1)">实用软件</li>
-                            <li onclick="webitems(this,2,1)">网站工具</li>
-                            <li onclick="webitems(this,2,1)">在线工具</li>
-                            <li onclick="webitems(this,2,1)">办公工具</li>
-                            <li onclick="webitems(this,2,1)">表单工具</li>
-                            <li onclick="webitems(this,2,1)">图片处理</li>
-                            <li onclick="webitems(this,2,1)">学术软件</li>
+                            <li class="active" onclick="webitems(this,3,0)">实用软件</li>
+                            <li onclick="webitems(this,3,1)">网站工具</li>
+                            <li onclick="webitems(this,3,2)">在线工具</li>
+                            <li onclick="webitems(this,3,3)">办公工具</li>
+                            <li onclick="webitems(this,3,4)">表单工具</li>
+                            <li onclick="webitems(this,3,5)">图片处理</li>
+                            <li onclick="webitems(this,3,6)">学术软件</li>
                         </ul>
                     </div>
                     <div class="items">
@@ -90,9 +93,9 @@
                             <span>资源检索</span>
                         </div>
                         <ul>
-                            <li class="active" onclick="webitems(this,2,1)">网盘搜索</li>
-                            <li onclick="webitems(this,2,1)">文档搜索</li>
-                            <li onclick="webitems(this,2,1)">BT搜索</li>
+                            <li class="active" onclick="webitems(this,4,0)">网盘搜索</li>
+                            <li onclick="webitems(this,4,1)">文档搜索</li>
+                            <li onclick="webitems(this,4,2)">BT搜索</li>
                         </ul>
                     </div>
                     <div class="items">
@@ -106,14 +109,14 @@
                             <span>影音娱乐</span>
                         </div>
                         <ul>
-                            <li class="active" onclick="webitems(this,2,1)">直播平台</li>
-                            <li onclick="webitems(this,2,1)">美剧</li>
-                            <li onclick="webitems(this,2,1)">日韩</li>
-                            <li onclick="webitems(this,2,1)">动漫追番</li>
-                            <li onclick="webitems(this,2,1)">影视下载</li>
-                            <li onclick="webitems(this,2,1)">在线音乐</li>
-                            <li onclick="webitems(this,2,1)">漫画读物</li>
-                            <li onclick="webitems(this,2,1)">游戏</li>
+                            <li class="active" onclick="webitems(this,5,0)">直播平台</li>
+                            <li onclick="webitems(this,5,1)">美剧</li>
+                            <li onclick="webitems(this,5,2)">日韩</li>
+                            <li onclick="webitems(this,5,3)">动漫追番</li>
+                            <li onclick="webitems(this,5,4)">影视下载</li>
+                            <li onclick="webitems(this,5,5)">在线音乐</li>
+                            <li onclick="webitems(this,5,6)">漫画读物</li>
+                            <li onclick="webitems(this,5,7)">游戏</li>
                         </ul>
                     </div>
                     <div class="items">
@@ -127,10 +130,10 @@
                             <span>设计艺术</span>
                         </div>
                         <ul>
-                            <li class="active" onclick="webitems(this,2,1)">创意灵感</li>
-                            <li onclick="webitems(this,2,1)">图库素材</li>
-                            <li onclick="webitems(this,2,1)">精美壁纸</li>
-                            <li onclick="webitems(this,2,1)">图标字体</li>
+                            <li class="active" onclick="webitems(this,6,0)">创意灵感</li>
+                            <li onclick="webitems(this,6,1)">图库素材</li>
+                            <li onclick="webitems(this,6,2)">精美壁纸</li>
+                            <li onclick="webitems(this,6,3)">图标字体</li>
                         </ul>
                     </div>
                     <div class="items">
@@ -144,9 +147,9 @@
                             <span>生活服务</span>
                         </div>
                         <ul>
-                            <li class="active" onclick="webitems(this,2,1)">职场招聘</li>
-                            <li onclick="webitems(this,2,1)">生活百科</li>
-                            <li onclick="webitems(this,2,1)">社会新闻</li>
+                            <li class="active" onclick="webitems(this,7,0)">职场招聘</li>
+                            <li onclick="webitems(this,7,1)">生活百科</li>
+                            <li onclick="webitems(this,7,2)">社会新闻</li>
                         </ul>
                     </div>
                     <div class="items">
@@ -160,9 +163,9 @@
     </div>
 
 
-<script>
+    <script>
 
-</script>
+    </script>
 </body>
 
 </html>
