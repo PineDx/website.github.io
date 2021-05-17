@@ -14,6 +14,31 @@
             "title": "全国四六级考试",
             "weburl": "http://cet-bm.neea.edu.cn/",
             "desctext": ""
+        },
+        {
+            "title": "书画等级考试",
+            "weburl": "http://ccpt.neea.edu.cn/",
+            "desctext": ""
+        },
+        {
+            "title": "托福(TOEFL)",
+            "weburl": "http://toefl-main.neea.cn/",
+            "desctext": ""
+        },
+        {
+            "title": "雅思(IELTS)",
+            "weburl": "http://ielts-main.neea.cn/",
+            "desctext": ""
+        },
+        {
+            "title": "日语等级考试",
+            "weburl": "http://jlpt-main.neea.cn/",
+            "desctext": ""
+        },
+        {
+            "title": "德福(TestDaF)",
+            "weburl": "http://testdaf-main.neea.cn/",
+            "desctext": ""
         }
     ]
 }
