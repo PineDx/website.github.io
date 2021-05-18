@@ -1,9 +1,9 @@
 
 // 网页加载自执行
     $(document).ready(function(){
-        let li = $(".active");
-        for(let i = 0;i < li.length ; i++ ){
-            webitems(li.get(0),i, 0);
+        let lis = $(".active");
+        for(let i = 0;i < lis.length ; i++ ){
+            webitems(lis.get(i),i+1, 0);
         }
     });
    
@@ -63,17 +63,20 @@
                 return "design";
             case 7:
                 return "lifeserve";
+            case 8:
+                return "meboss";
         }
     }
 
 function getsubfold(parent, sub) {
-    let sub1 = ["guojia", "xueshu", "kaoyan", "yingyu", "ketang", "shuku", "xuexi", "bcshequ", "bcedu"];
+    let sub1 = ["guojia", "xueshu", "kaoyan", "yingyu", "ketang", "shuku", "xuexi"];
     let sub2 = ["shuju", "rank", "fenxi"];
     let sub3 = ["shiyong", "wangzhan", "zaixian", "bangong", "biaodan", "tupian", "xueshu"];
     let sub4 = ["wangpan", "wengdang", "bt"];
     let sub5 = ["zhibo","meiju",  "rihan","dongman","yingshi","yingyue","manhua","youxi"];
     let sub6 = ["chuangyi", "tuku", "bizhi", "tubiao"];
     let sub7 = ["zhichang", "baike", "shehui"];
+    let sub8 = ["tutou", "bcshequ", "bcedu"];
 
     switch (parent) {
         case 1:
@@ -90,6 +93,8 @@ function getsubfold(parent, sub) {
             return sub6[sub];
         case 7:
             return sub7[sub];
+        case 8:
+            return sub8[sub];
     }
 }
 

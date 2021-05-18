@@ -1,59 +1,59 @@
 {
     "data": [
         {
-            "title": "",
-            "weburl": "",
+            "title": "图书-图灵社区",
+            "weburl": "https://www.ituring.com.cn/book",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "雅书",
+            "weburl": "https://yabook.blog/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "Kindle 图书资源",
+            "weburl": "https://bookfere.com/ebook",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "图书-PDF之家",
+            "weburl": "http://pdfzj.cn/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "熊猫搜书",
+            "weburl": "https://xmsoushu.com/#/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
-            "desctext": ""
+            "title": "OBook电子书库",
+            "weburl": "http://www.obook.vip/books/?imyshare.com=friends",
+            "desctext": "最大的电子书库，在线电子书管理"
         },
         {
-            "title": "",
-            "weburl": "",
-            "desctext": ""
+            "title": "TheFuture书籍搜索",
+            "weburl": "https://bks.thefuture.top/",
+            "desctext": "TheFuture书籍搜索是为读书爱好者们打造的电子书搜索引擎"
         },
         {
-            "title": "",
-            "weburl": "",
-            "desctext": ""
+            "title": "书享家",
+            "weburl": "http://shuxiangjia.cn/",
+            "desctext": "电子书下载导航"
         },
         {
-            "title": "",
-            "weburl": "",
-            "desctext": ""
+            "title": "码农之家",
+            "weburl": "https://www.xz577.com/",
+            "desctext": "计算机电子书资源、编程技术文章、文档、视频推荐"
         },
         {
-            "title": "",
-            "weburl": "",
-            "desctext": ""
+            "title": "星空好书下载",
+            "weburl": "https://www.goodepub.com/",
+            "desctext": "每天都分享优质电子书免费下载"
         },
         {
-            "title": "",
-            "weburl": "",
-            "desctext": ""
+            "title": "书栈网",
+            "weburl": "https://www.bookstack.cn/",
+            "desctext": "程序员IT互联网开源编程书籍免费阅读与下载，取之于猿用之于猿"
         }
     ]
 }

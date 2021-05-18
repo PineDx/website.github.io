@@ -1,58 +1,83 @@
 {
     "data":[
         {
-            "title":"",
-            "weburl": "",
+            "title":"百度学术",
+            "weburl": "https://xueshu.baidu.com/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "中国知网",
+            "weburl": "https://www.cnki.net/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "全国图书馆参考咨询联盟",
+            "weburl": "http://www.ucdrs.superlib.net/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "谷歌学术",
+            "weburl": "https://gg.xueshu5.com/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "小木虫论坛",
+            "weburl": "http://muchong.com/bbs/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "PaperPass",
+            "weburl": "https://www.paperpass.com/",
+            "desctext": "论文查重"
+        },
+        {
+            "title": "PaperFree",
+            "weburl": "https://www.paperfree.cn/",
+            "desctext": "论文免费查"
+        },
+        {
+            "title": "谷歌学术镜像",
+            "weburl": "https://ac.scmor.com/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "道客巴巴",
+            "weburl": "https://www.doc88.com/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "术语在线",
+            "weburl": "https://www.termonline.cn/index",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "爱学术",
+            "weburl": "https://www.ixueshu.com/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "中文学术集刊网",
+            "weburl": "https://3c.nju.edu.cn/xsjk/",
             "desctext": ""
         },
         {
-            "title": "",
-            "weburl": "",
+            "title": "国家哲学社会科学文献中心",
+            "weburl": "http://www.ncpssd.org/",
+            "desctext": ""
+        },
+        {
+            "title": "360学术搜索（免费）",
+            "weburl": "http://xueshu.so.com/",
+            "desctext": ""
+        },
+        {
+            "title": "第一范文网",
+            "weburl": "https://www.diyifanwen.com/",
+            "desctext": ""
+        },
+        {
+            "title": "MBA智库·文档",
+            "weburl": "https://doc.mbalib.com/",
             "desctext": ""
         }
     ]
